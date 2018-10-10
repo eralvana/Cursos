@@ -3,13 +3,13 @@ function buscar() {
   var requestURL;
   switch (IDCurso){
     case "UPALG160":
-      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1-hnVf2g-xyG-6digsmcZr-NmCiQpfSjFDJBfv3LWiL4/values/JSON160!A1:S48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
+      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1-hnVf2g-xyG-6digsmcZr-NmCiQpfSjFDJBfv3LWiL4/values/JSON160!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
     case "UPCD962":
-      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1CL90sYh45s7nmDU3uTYR-J57QMShknFYb903vE8Bcvc/values/JSON962!A1:S48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
+      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1CL90sYh45s7nmDU3uTYR-J57QMShknFYb903vE8Bcvc/values/JSON962!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
     case "UPCD1777":
-      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1xSwByRL6BOXxso-TmwnNi7R-3v--K8q_u1_QxMA5-Z4/values/JSON1777!A1:S48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
+      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1xSwByRL6BOXxso-TmwnNi7R-3v--K8q_u1_QxMA5-Z4/values/JSON1777!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
   }
 
