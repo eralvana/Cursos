@@ -192,3 +192,51 @@ body {
 	border: 2px solid #000000;
 	background: #FFCC00;
 }
+.calificaciones {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 150px;	
+	grid-gap: 1px;
+	margin: 2px 2px;
+	padding: 2px;
+	background: #FFFFFF;
+}
+.g {
+	text-align: center;
+  	margin: 1px 1px;
+  	background: #CCCCCC;
+  	border: 1px solid #FFFFFF;
+  	padding: 20px;
+}
+.ID {
+	grid-row: 1;
+	grid-column: 1;
+}
+.nombre {
+	grid-row: 1;
+	grid-column: 2;
+}
+.calfin {
+	grid-row: 1;
+	grid-column: 3;
+}
+.p01 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+  	grid-row: 2;
+}
+.p02 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+  	grid-row: 3;
+}
+.calpar {
+  	grid-row: 4;
+  	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.exfin {
+	grid-row: 5;
+  	grid-column-start: 1;
+	grid-column-end: 4;
+}

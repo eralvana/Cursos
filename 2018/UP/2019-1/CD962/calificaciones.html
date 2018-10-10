@@ -8,6 +8,7 @@
 		<link rel="icon" type="image/png" href="../../../../archivos/ico.png"/>
 		<link rel="stylesheet" href="../../styleup.css">
 		<script src="../../../../javaScript.js"></script>
+		<script src="../../calificacionesUP.js"></script>
 	</head>
 	<body onload="reloj()">
 		<div class="agrupar">
@@ -27,10 +28,52 @@
 		<section class="seccion">
 			<h1>Lista de resultados</h1>
 			<p class="c">
-				<h2>En actualización</h2>
-				<!-- <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQUk2U5vS6KkfLYbsqO3eo17IBuLvJtUr334V8ph8yL_KRKKBXguDNxkc2WICGGHDnSgmTT8JKX-U0n/pubhtml?gid=1339051897&single=true" width="100%" height="1400"></iframe>  -->
+				<center>
+					<form action="javascript:voit(0);" onsubmit="buscar()">ID: <input id="IDABuscar" type="text" name="item" placeholder="Escribe tu ID"> <input type="submit" value="Enviar"> <input type="hidden" name="IDCurso" id="IDCurso" value="UPCD962"></form>
+				</center>
+				<br>
 			</p>
+			<div class="calificaciones" id="cuadroinfo" style="display: none">
+				<div class="g ID">
+					<p class="j">ID:</p>
+					<p class="c"><b id="IDAlumno"></b></p>
+				</div>
+				<div class="g nombre">
+					<p class="j">Nombre:</p>
+					<p class="c"><b id="IDNombre"></b></p>
+				</div>
+				<div class="g calfin">
+					<p class="c">Calificación final del curso:</p>
+					<p class="c"><b id="IDCalFin"></b></p>
+				</div>
+				<div class="g p01">
+					<h2>Primer Parcial</h2>
+					<p class="j"><b id="IDCalP01"></b> es la calificación que obtuviste en el primer parcial. Este rubro se obtuvo con el 20 % Tareas y 80 % Examen Parcial.</p>
+					<p class="c">Tareas: <b id="IDTareasP01"></b> (20% = <b id="IDTareasP0120"></b>) ; Primer Examen Parcial: <b id="IDExamenP01"></b> (80% = <b id="IDExamenP0180"></b>)</p>
+				</div>
+				<div class="g p02">
+					<h2>Segundo Parcial</h2>
+					<p class="j"><b id="IDCalP02">???</b> es la calificación que obtuviste en el segundo parcial. Este rubro se obtuvo con el 20 % Tareas y 80 % Examen Parcial.</p>
+					<p class="c">Tareas: <b id="IDTareasP02"></b> (20% = <b id="IDTareasP0220"></b>) ; Primer Examen Parcial: <b id="IDExamenP02"></b> (80% = <b id="IDExamenP0280"></b>)</p>
+				</div>
+				<div class="g calpar">
+					<h2>Calificación Parcial</h2>
+					<p class="c">Es el 60% del promedio de las calificaciones parciales; en este caso, tu promedio es <b id="IDPromCalPar"></b>, que equivale a <b id="IDCalPar"></b> de la calificación final.</p>
+				</div>
+				<div class="g exfin">
+					<h2>Examen Final</h2>
+					<p class="c"><b id="IDExFin"></b> es la calificación que obtuviste en el examen final y que equivale al 40% de la calificación final del curso. En este caso equivale a <b id="IDExFin40"></b>.</p>					
+				</div>
+			</div>
+			<p class="c" id="NOID" style="display: none"> El ID proporcionado no está inscrito en este curso. Intente nuevamente.</p>
 		</section>
+		<!-- <section class="seccion">
+			<h1>Lista de resultados</h1>
+			<p class="c">
+				<h2>En actualización</h2>
+				<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQUk2U5vS6KkfLYbsqO3eo17IBuLvJtUr334V8ph8yL_KRKKBXguDNxkc2WICGGHDnSgmTT8JKX-U0n/pubhtml?gid=1339051897&single=true" width="100%" height="1400"></iframe>
+			</p>
+		</section> -->
 		</section>
 		<aside class="columna">
 			<blockquote>¡Bienvenido!</blockquote>
