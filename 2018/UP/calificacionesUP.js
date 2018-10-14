@@ -13,15 +13,18 @@ function buscar() {
       break;
   }
 
-  var request = new XMLHttpRequest();
-  request.open('GET', requestURL);
-  request.responseType = 'json';
-  request.send();
+  // Podemos usar fetch que es más moderno y no tenemos que ir a los fierros de
+  // XMLHttpRequest para traernos la información
+  fetch(requestURL)
+  .then(response => response.json())
+  .then(pintarInformacion)
+  .catch(console.error)
+}
 
-  request.onload = function() {
+function pintarInformacion(response) {
   var IDX = document.getElementById("IDABuscar").value;
   IDX = IDX.trim();
-  var IDalumno = request.response;
+  var IDalumno = response;
   for (var i = 0; i < IDalumno.values.length; i++) {
     if (IDalumno.values[i][0] == IDX) {
       document.getElementById("NOID").style.display = "none";
@@ -52,5 +55,4 @@ function buscar() {
       }
     }
   }
-}
 }
