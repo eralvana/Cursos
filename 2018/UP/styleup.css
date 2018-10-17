@@ -129,6 +129,9 @@ body {
 .seccion p.j{
 	text-align: justify;
 }
+ol.p{
+	margin-left: 50px;
+}
 .columna {
 	float: left;
 	width: 180px;

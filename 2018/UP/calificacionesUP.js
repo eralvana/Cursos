@@ -12,16 +12,16 @@ function buscar() {
       requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1xSwByRL6BOXxso-TmwnNi7R-3v--K8q_u1_QxMA5-Z4/values/JSON1777!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
   }
+  fetch(requestURL)
+  .then(response => response.json())
+  .then(pintarInformacion)
+  .catch(console.error)
+}
 
-  var request = new XMLHttpRequest();
-  request.open('GET', requestURL);
-  request.responseType = 'json';
-  request.send();
-
-  request.onload = function() {
+function pintarInformacion(response) {
   var IDX = document.getElementById("IDABuscar").value;
   IDX = IDX.trim();
-  var IDalumno = request.response;
+  var IDalumno = response;
   for (var i = 0; i < IDalumno.values.length; i++) {
     if (IDalumno.values[i][0] == IDX) {
       document.getElementById("NOID").style.display = "none";
@@ -52,5 +52,4 @@ function buscar() {
       }
     }
   }
-}
 }
