@@ -9,5 +9,6 @@ function reloj(){
 	horaImprimible = H + ":" + M + ":" + S
 	var rel = document.getElementById("reloj")
 	rel.innerHTML = horaImprimible
-	setTimeout("reloj()",1000) 
+	setTimeout("reloj()",1000)
 }
+document.write("<script type='text/javascript' async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>");
