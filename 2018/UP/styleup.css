@@ -19,7 +19,7 @@ ul {
 }
 b{
 }
-a:link { 
+a:link {
 	text-decoration:none;
 }
 a:hover{
@@ -132,6 +132,9 @@ body {
 ol.p{
 	margin-left: 50px;
 }
+ul.p{
+	margin-left: 50px;
+}
 .columna {
 	float: left;
 	width: 180px;
@@ -198,7 +201,7 @@ ol.p{
 .calificaciones {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
-	grid-template-rows: 150px;	
+	grid-template-rows: 150px;
 	grid-gap: 1px;
 	margin: 2px 2px;
 	padding: 2px;
