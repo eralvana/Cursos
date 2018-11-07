@@ -236,13 +236,18 @@ ul.p{
 	grid-column-end: 4;
   	grid-row: 3;
 }
-.calpar {
+.p03 {
+	grid-column-start: 1;
+	grid-column-end: 4;
   	grid-row: 4;
+}
+.calpar {
+  	grid-row: 5;
   	grid-column-start: 1;
 	grid-column-end: 4;
 }
 .exfin {
-	grid-row: 5;
+	grid-row: 6;
   	grid-column-start: 1;
 	grid-column-end: 4;
 }

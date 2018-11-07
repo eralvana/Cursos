@@ -3,7 +3,7 @@ function buscar() {
   var requestURL;
   switch (IDCurso){
     case "UPALG160":
-      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1-hnVf2g-xyG-6digsmcZr-NmCiQpfSjFDJBfv3LWiL4/values/JSON160!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
+      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1-hnVf2g-xyG-6digsmcZr-NmCiQpfSjFDJBfv3LWiL4/values/JSON160!A1:U48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
     case "UPCD962":
       requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1CL90sYh45s7nmDU3uTYR-J57QMShknFYb903vE8Bcvc/values/JSON962!A1:S49?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
@@ -28,7 +28,7 @@ function pintarInformacion(response) {
       document.getElementById("cuadroinfo").style.display = "grid";
       document.getElementById("IDAlumno").innerHTML = IDalumno.values[i][0];
       document.getElementById("IDNombre").innerHTML = IDalumno.values[i][3] + " " + IDalumno.values[i][1] + " " + IDalumno.values[i][2];
-      document.getElementById("IDCalFin").innerHTML = IDalumno.values[i][18];
+      document.getElementById("IDCalFin").innerHTML = IDalumno.values[i][20];
       document.getElementById("IDCalP01").innerHTML = IDalumno.values[i][8];
       document.getElementById("IDTareasP01").innerHTML = IDalumno.values[i][4];
       document.getElementById("IDTareasP0120").innerHTML = IDalumno.values[i][5];
@@ -39,10 +39,11 @@ function pintarInformacion(response) {
       document.getElementById("IDTareasP0220").innerHTML = IDalumno.values[i][10];
       document.getElementById("IDExamenP02").innerHTML = IDalumno.values[i][11];
       document.getElementById("IDExamenP0280").innerHTML = IDalumno.values[i][12];
-      document.getElementById("IDPromCalPar").innerHTML = IDalumno.values[i][14];
-      document.getElementById("IDCalPar").innerHTML = IDalumno.values[i][15];
-      document.getElementById("IDExFin").innerHTML = IDalumno.values[i][16];
-      document.getElementById("IDExFin40").innerHTML = IDalumno.values[i][17];
+      document.getElementById("IDCalP03").innerHTML = IDalumno.values[i][15];
+      document.getElementById("IDPromCalPar").innerHTML = IDalumno.values[i][16];
+      document.getElementById("IDCalPar").innerHTML = IDalumno.values[i][17];
+      document.getElementById("IDExFin").innerHTML = IDalumno.values[i][18];
+      document.getElementById("IDExFin40").innerHTML = IDalumno.values[i][19];
       break;
     } else {
       if (i== IDalumno.values.length - 1) {
