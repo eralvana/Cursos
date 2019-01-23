@@ -2,6 +2,8 @@ function buscar() {
   var IDCurso = document.getElementById("IDCurso").value;
   var requestURL;
   switch (IDCurso){
+    case "UPED":
+      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/19N2bHBFGM4AQoNKWrVlPbkC7BuvV1ZSgdLr8Vz87idw/values/JSON1748!A1:U16?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';      break;
     case "UPALG160":
       requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1-hnVf2g-xyG-6digsmcZr-NmCiQpfSjFDJBfv3LWiL4/values/JSON160!A1:U48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
@@ -11,8 +13,6 @@ function buscar() {
     case "UPCD1777":
       requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/1xSwByRL6BOXxso-TmwnNi7R-3v--K8q_u1_QxMA5-Z4/values/JSON1777!A1:U48?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';
       break;
-    case "UPED1748":
-      requestURL = 'https://sheets.googleapis.com/v4/spreadsheets/19N2bHBFGM4AQoNKWrVlPbkC7BuvV1ZSgdLr8Vz87idw/values/JSON1748!A1:U16?key=AIzaSyBBbDSfQ7u7JFUL3AiNd0ZraNC6Bly2LMI';      break;
   }
   fetch(requestURL)
   .then(response => response.json())
