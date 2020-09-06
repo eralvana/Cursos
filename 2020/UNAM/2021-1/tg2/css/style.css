@@ -1,0 +1,670 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body main {
+  padding: 0;
+  margin: 0;
+}
+
+.seccion,
+.columna {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Header */
+header {
+  background: #1ABC9C;
+  margin-top: 5%;
+  padding-top: 5px;
+  padding-bottom: 5%;
+  color: #FFFFFF;
+}
+
+.titulo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #1ABC9C;
+  z-index: 2;
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.titulo h2 {
+  font-size: 24px;
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  margin-top: 154px;
+  padding-bottom: 30px;
+}
+
+.video,
+.informacion {
+  padding-top: 55px;
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.video p {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.video video {
+  width: 450px;
+}
+
+/* Menu */
+header .contenedor {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 2;
+  align-items: center;
+}
+
+header nav {
+  background: #2C3E50;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  height: 50px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+nav ul li.active {
+  background: #2C3E50;
+  text-decoration: none;
+}
+
+nav ul li.active a {
+  color: #1ABC9C;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #FFFFFF;
+}
+
+nav ul li a:hover {
+  color: #FFFFFF;
+  font-style: italic;
+  background: #1ABC9C;
+  text-decoration: none;
+}
+
+header .barras {
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  right: 2%;
+  line-height: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 3;
+}
+
+/* Sección1 */
+.seccion1 {
+  text-align: center;
+  color: #2C3E50;
+  transition: 2s;
+}
+
+.seccion1 p {
+  font-size: 20px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.seccion1 ul {
+  font-size: 20px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.seccion1 .img {
+  padding: 100px;
+}
+
+.seccion1 .libro {
+  width: 50%;
+  padding-top: 100px;
+}
+
+/* Seccion2 */
+.seccion2 {
+  background: #2C3E50;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.seccion2 .lista {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.seccion2 ul {
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.seccion2 a:hover {
+  color: #FFFF00;
+  text-decoration: none;
+}
+
+.seccion2 b {
+  color: #FFFF00;
+}
+
+/* Seccion3 */
+.seccion3 {
+  background: #1ABC9C;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000;
+}
+
+.seccion3 .lista {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.seccion3 p {
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.seccion3 a {
+  text-shadow: none;
+  color: #0000FF;
+}
+
+.seccion3 a:hover {
+  text-shadow: none;
+  color: #FFFF00;
+  text-decoration: none;
+}
+
+.cuadro1,
+.cuadro2,
+.cuadrotarea {
+  font-size: 24px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #000000 solid 2px;
+  height: 200px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cuadrotarea a {
+  color: #FFFFFF;
+  margin: 5px;
+  margin-left: -17px;
+  margin-right: -17px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadrotarea a:hover {
+  text-decoration: none;
+}
+
+.cuadro1:hover,
+.cuadro2:hover,
+.cuadrotarea:hover {
+  background-size: 100%;
+  border: #FFFF00 solid 4px;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.cuadro2:hover .titulocuadro,
+.cuadro1:hover .titulocuadro,
+.cuadrotarea:hover .titulocuadro {
+  color: #FFFF00;
+}
+
+.cuadro1 {
+  background-image: url(../img-video/triangulos-azules.png);
+}
+
+.cuadro2 {
+  background-image: url(../img-video/triangulos-grises.jpg);
+}
+
+.cuadrotarea {
+  background-image: url(../img-video/tarea1.jpg);
+}
+
+.marco {
+  border: 4px solid #000000;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #000000;
+}
+
+#Historial #accordion iframe {
+  width: 600px;
+  height: 480px;
+}
+
+/* Pie-página */
+.Pie-pagina {
+  background: #1ABC9C;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 10px #000000;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* Media */
+@media(max-width:1200px) {
+
+  .seccion,
+  .columna {
+    padding: 30px;
+    margin: 0px;
+  }
+
+  .seccion1 .libro img {
+    padding-top: 30px;
+    width: 250px;
+  }
+}
+
+@media(max-width: 991px) {
+  body main {
+    padding: 0px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header .contenedor {
+    padding: 10px;
+  }
+
+  .video {
+    margin-top: 40px;
+  }
+
+  .video img {
+    width: 300px;
+  }
+
+  header .barras {
+    margin-top: 20px;
+    display: block;
+    z-index: 3;
+  }
+
+  header nav {
+    position: absolute;
+    width: 20%;
+    background: #2C3E50;
+    right: -100%;
+    transition: 0.5s;
+    border: 2px solid #000000;
+  }
+
+  header nav.active {
+    right: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+
+  .video video {
+    width: 300px;
+  }
+
+  .video .informacion {
+    padding-top: 0px;
+  }
+
+  .seccion1 ul {
+    padding: 0px;
+  }
+
+  .seccion1 p {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .seccion1 .img {
+    padding: 10px;
+    padding-top: 80px;
+  }
+
+  .seccion1 .libro {
+    padding-top: 40px;
+  }
+
+  .seccion1 .libro img {
+    width: 230px;
+  }
+
+  .Pie-pagina {
+    padding: 30px;
+  }
+
+  #Historial #accordion iframe {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 900px) {
+  .video video {
+    width: 350px;
+  }
+
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    font-size: 16pt;
+  }
+}
+
+@media(max-width: 800px) {
+  header .barras {
+    position: fixed;
+    top: 0;
+    line-height: 10px;
+    font-size: 22px;
+  }
+
+  .titulo h1 {
+    padding: 5px;
+    font-size: 24px;
+  }
+
+  .titulo h2 {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .video video {
+    width: 260px;
+  }
+
+  .video p {
+    font-size: 20px;
+  }
+
+  .seccion2 ul {
+    padding: 30px;
+  }
+
+  #Historial #accordion iframe {
+    width: 450px;
+    height: 360px;
+  }
+}
+
+@media(max-width:767px) {
+
+  .seccion1 .img,
+  .seccion1 .libro {
+    padding: 10px;
+  }
+
+  .seccion1 .libro img {
+    width: 280px;
+  }
+
+  #Historial #accordion iframe {
+    width: 300px;
+    height: 240px;
+  }
+}
+
+@media(max-width:700px) {
+
+  .seccion,
+  .columna {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .video img {
+    padding-top: 20px;
+    width: 250px;
+  }
+
+  nav ul li a {
+    height: 50px;
+    line-height: 30px;
+  }
+
+  .seccion1 p {
+    padding-bottom: 0px;
+  }
+
+  .seccion1 .bibliografia {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .seccion1 .libro img {
+    width: 300px;
+  }
+
+  .seccion2 .lista {
+    margin: 0px;
+  }
+
+  .seccion2 a {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 600px) {
+  header nav {
+    width: 25%;
+  }
+
+  .seccion1 .img {
+    padding: 10px;
+  }
+
+  .seccion1 .img img {
+    width: 160px;
+  }
+
+  .seccion2 .lista {
+    padding-left: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .seccion1 .cuadro1,
+  .seccion1 .cuadro2,
+  .seccion1 .cuadrotarea {
+    margin: 4px 0;
+  }
+}
+
+@media(max-width: 500px) {
+  header nav {
+    width: 35%;
+  }
+
+  .contenedor-video {
+    padding: 10px;
+  }
+
+  .video {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .video img {
+    padding-top: 0px;
+    width: 300px;
+  }
+
+  nav ul li a {
+    height: 43px;
+    line-height: 30px;
+  }
+
+  .seccion2 ul {
+    text-align: justify;
+    padding-left: 50px;
+  }
+
+  .seccion2 a {
+    font-size: 18px;
+  }
+
+  #Historial #accordion iframe {
+    width: 210px;
+    height: 168px;
+  }
+}
+
+@media(max-width: 400px) {
+  .seccion .columna {
+    padding-top: 30px;
+  }
+
+  .video {
+    margin-top: 60px;
+  }
+
+  .video video {
+    width: 280px;
+  }
+
+  header .barras {
+    position: fixed;
+    top: 0;
+    line-height: 0;
+    font-size: 20px;
+  }
+
+  nav ul li a {
+    height: 40px;
+    line-height: 20px;
+  }
+
+  .seccion1,
+  .seccion2,
+  .seccion3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .seccion1 p,
+  .seccion2 p,
+  .seccion3 p {
+    font-size: 16px;
+    margin: 2px;
+    padding: 10px;
+  }
+
+  .seccion1 .img img {
+    width: 240px;
+  }
+
+  .seccion2 .lista {
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .seccion2 .img {
+    text-align: center;
+  }
+
+  .seccion2 .img img {
+    width: 250px;
+  }
+
+  .seccion2 ul {
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  .seccion2 li {
+    padding: 5px;
+  }
+
+  .seccion1 .libro {
+    text-align: center;
+  }
+
+  .cuadro1 .titulocuadro,
+  .cuadro2 .titulocuadro,
+  .cuadrotarea .titulocuadro {
+    font-size: 18px;
+  }
+
+  .cuadro1,
+  .cuadro2,
+  .cuadrotarea {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 362px) {
+  nav ul li a {
+    height: 38px;
+    line-height: 15px;
+  }
+}
+
+@media(max-width: 353px) {
+  .seccion .columna {
+    padding-top: 5px;
+  }
+
+  #Historial #accordion iframe {
+    width: 170px;
+    height: 136px;
+  }
+}
