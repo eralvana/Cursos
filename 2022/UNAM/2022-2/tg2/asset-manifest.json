@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cursos/UNAM/2022-2/tg2/static/css/main.ebe974d9.chunk.css",
-    "main.js": "/Cursos/UNAM/2022-2/tg2/static/js/main.59714601.chunk.js",
-    "main.js.map": "/Cursos/UNAM/2022-2/tg2/static/js/main.59714601.chunk.js.map",
-    "runtime-main.js": "/Cursos/UNAM/2022-2/tg2/static/js/runtime-main.7233b30c.js",
-    "runtime-main.js.map": "/Cursos/UNAM/2022-2/tg2/static/js/runtime-main.7233b30c.js.map",
-    "static/js/2.001b66f3.chunk.js": "/Cursos/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js",
-    "static/js/2.001b66f3.chunk.js.map": "/Cursos/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js.map",
-    "index.html": "/Cursos/UNAM/2022-2/tg2/index.html",
-    "static/css/main.ebe974d9.chunk.css.map": "/Cursos/UNAM/2022-2/tg2/static/css/main.ebe974d9.chunk.css.map",
-    "static/js/2.001b66f3.chunk.js.LICENSE.txt": "/Cursos/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js.LICENSE.txt",
-    "static/media/GP.3e9e0f3b.gif": "/Cursos/UNAM/2022-2/tg2/static/media/GP.3e9e0f3b.gif",
-    "static/media/TG.5b8111c5.gif": "/Cursos/UNAM/2022-2/tg2/static/media/TG.5b8111c5.gif"
+    "main.css": "/Cursos/2022/UNAM/2022-2/tg2/static/css/main.ebe974d9.chunk.css",
+    "main.js": "/Cursos/2022/UNAM/2022-2/tg2/static/js/main.59714601.chunk.js",
+    "main.js.map": "/Cursos/2022/UNAM/2022-2/tg2/static/js/main.59714601.chunk.js.map",
+    "runtime-main.js": "/Cursos/2022/UNAM/2022-2/tg2/static/js/runtime-main.e4e185d6.js",
+    "runtime-main.js.map": "/Cursos/2022/UNAM/2022-2/tg2/static/js/runtime-main.e4e185d6.js.map",
+    "static/js/2.001b66f3.chunk.js": "/Cursos/2022/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js",
+    "static/js/2.001b66f3.chunk.js.map": "/Cursos/2022/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js.map",
+    "index.html": "/Cursos/2022/UNAM/2022-2/tg2/index.html",
+    "static/css/main.ebe974d9.chunk.css.map": "/Cursos/2022/UNAM/2022-2/tg2/static/css/main.ebe974d9.chunk.css.map",
+    "static/js/2.001b66f3.chunk.js.LICENSE.txt": "/Cursos/2022/UNAM/2022-2/tg2/static/js/2.001b66f3.chunk.js.LICENSE.txt",
+    "static/media/GP.3e9e0f3b.gif": "/Cursos/2022/UNAM/2022-2/tg2/static/media/GP.3e9e0f3b.gif",
+    "static/media/TG.5b8111c5.gif": "/Cursos/2022/UNAM/2022-2/tg2/static/media/TG.5b8111c5.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.7233b30c.js",
+    "static/js/runtime-main.e4e185d6.js",
     "static/js/2.001b66f3.chunk.js",
     "static/css/main.ebe974d9.chunk.css",
     "static/js/main.59714601.chunk.js"
