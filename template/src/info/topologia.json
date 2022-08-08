@@ -1,0 +1,54 @@
+{
+	"index": "topología",
+	"name": "Topoplogía",
+	"coursename": "Topología I",
+	"group": "4326",
+	"institution": "Facultad de Ciencias",
+	"syllabus": ["Preliminares","Espacios topológicos","Continuidad y topología inducida por funciones","Espacios de Hausdorff y compacidad","Otros axiomas de separación","Conexidad","Nociones de homotopía"],
+	"classroom": {
+		"code": "4x4o6j7",
+		"invitation": "https://classroom.google.com/c/NTM4MDg0MTA4NDY2?cjc=4x4o6j7"
+	},
+	"courselinkpageweb": "https://www.fciencias.unam.mx/docencia/horarios/presentacion/336816",
+	"bibliography": [
+		{"author": "Prieto, C.",
+			"year": "2003",
+			"title": "Topología Básica",
+			"printer": "México: Fondo de Cultura Económica"
+		},
+		{
+			"author": "Salicrup, G.",
+			"year": "1993",
+			"title": "Introducción a la Topología",
+			"printer": "México: Aportaciones Matemáticas, Sociedad Matematica Mexicana"
+		},
+		{
+			"author": "Dugundji, J.",
+			"year": "1966",
+			"title": "Topology",
+			"printer": "Boston: Allyn and Bacon"
+		},
+		{
+			"author": "García-Máynez, A., Tamariz, A.",
+			"year": "1988",
+			"title": "Topología General",
+			"printer": "México: Porrúa"
+		},
+		{
+			"author": "Willard, S.",
+			"year": "1970",
+			"title": "General Topology",
+			"printer": "Reading: Addison-Wesley"
+		}
+	],
+	"teacher": {
+		"name": "Ernesto Vázquez",
+		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+		"email": "eralvanamate@gmail.com"
+	},
+	"teacherassistant": {
+		"name": "Gasde Hunedy",
+		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+		"email": "ghl1123@yahoo.com.mx"
+	}
+}

@@ -1,0 +1,11 @@
+header {
+  padding: 1rem 0rem;
+  position: fixed;
+  min-width: 100%;
+}
+
+@media (max-width: 950px){
+  header{
+    padding: 0;
+  }
+}

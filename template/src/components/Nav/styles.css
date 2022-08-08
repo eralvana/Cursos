@@ -1,0 +1,52 @@
+nav {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav ul {
+  display: inline-table;
+  padding: 0;
+}
+
+nav a {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 950px){
+  nav{
+    overflow-x: auto;
+    overflow-y: hidden;
+    line-height: 4rem;
+    scroll-behavior: auto;
+    margin: 0rem;
+  }
+
+  nav::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  nav::-webkit-scrollbar-track {
+    background: #FFC947;
+  }
+
+  nav::-webkit-scrollbar-thumb {
+    background-color: #185ADB;
+    border-radius: 20px;
+    border: 3px solid #FFC947;
+  }
+
+  nav li {
+    padding: 0px;
+  }
+
+  nav a {
+    padding: 0.5rem;
+  }
+}

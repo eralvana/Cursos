@@ -1,0 +1,49 @@
+{
+	"index": "matematicas",
+	"name": "Matemáticas",
+	"coursename": "Matemáticas",
+	"group": "UNICO",
+	"institution": "Escuela Nacional de Ciencias de la Tierra",
+	"syllabus": ["Teoría de conjuntos", "Lógica propocicional", "Relaciones y funciones", "Representación gráfica", "Geometría plana y esférica", "Gráficacion por computadora"],
+	"classroom": {
+		"code": "5dto6ur",
+		"invitation": "https://classroom.google.com/c/NTM4MDc4NTI0NzQ5?cjc=5dto6ur"
+	},
+	"courselinkpageweb": "http://www.encit.unam.mx/",
+	"bibliography": [
+		{
+			"author": "Hernández, F.",
+			"year": "2011",
+			"title": "Una introducción a la teoría de conjuntos",
+			"printer": "Sociedad Matemática Mexicana e Instituto de Matemáticas de la UNAM"
+		},
+		{
+			"author": "Lehmann, C. H.",
+			"year": "1989",
+			"title": "Geometría analítica",
+			"printer": "Limusa"
+		},
+		{
+			"author": "Rangel Nafaile, L. M.",
+			"year": "1992",
+			"title": "Relaciones y funciones",
+			"printer": "Trillas"
+		},
+		{
+			"author": "Ramirez Galarza, A. I.",
+			"year": "2004",
+			"title": "Geometría analítica: una introducción a la geometría",
+			"printer": "Las prensas de Ciencias"
+		}
+	],
+	"teacher": {
+		"name": "Ernesto Vázquez",
+		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+		"email": "eralvanamate@gmail.com"
+	},
+	"teacherassistant": {
+		"name": "Ernesto Alejandro Vázquez Navarro",
+		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+		"email": "ernesto.vazquez@encit.unam.mx"
+	}
+}

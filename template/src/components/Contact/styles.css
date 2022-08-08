@@ -1,0 +1,18 @@
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact li {
+  padding: 1rem;
+}
+
+.contact a {
+  color: #185ADB;
+  text-decoration: none;
+  transition: all 350ms;
+}
+
+.contact a:hover {
+  color: #EFEFEF;
+}

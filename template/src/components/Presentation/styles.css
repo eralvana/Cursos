@@ -1,0 +1,27 @@
+.descriptionpresentation {
+  padding: 1rem;
+  text-shadow: solid;
+  font-size: 2rem;
+  font: solid;
+}
+
+.descriptionimage{
+  padding: 2rem;
+}
+
+#Presentation {
+  display: flex;
+  align-items: center;
+  padding-top: 13rem;
+}
+
+@media (max-width: 950px){
+  #Presentation {
+  display: block;
+  padding-top: 10rem;
+  }
+
+  .descriptionpresentation {
+    font-size: 1.5rem;
+  }
+}

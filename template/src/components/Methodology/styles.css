@@ -1,0 +1,20 @@
+.methodology b {
+  color: #FFC947;
+}
+
+.methodology a {
+  color: #185ADB;
+  text-decoration: none;
+  transition: all 350ms;
+}
+
+.methodology a:hover {
+  color: #FFC947;
+}
+.methodology ol {
+  margin: 2rem;
+}
+
+.methodology li {
+  padding: 0.5rem;
+}

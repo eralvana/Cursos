@@ -1,0 +1,13 @@
+.evaluation {
+  padding: 2rem;
+  text-align: justify;
+}
+
+.evaluation b {
+ color:#185ADB;
+}
+
+.evaluation li {
+  padding: 0.5rem;
+  text-align: justify;
+}

@@ -1,0 +1,48 @@
+{
+	"index": "TG",
+	"name": "Teoría de Gráficas",
+	"coursename": "Teoría de Gráficas",
+	"group": "4308",
+	"institution": "Facultad de Ciencias",
+	"syllabus": ["Gráficas y subgráficas","Árboles","Conexidad","Recorridos eulerianos y ciclos hamiltonianos","Apareamientos","Coloración de aristas","Coloración de vértices","Gráficas planares"],
+	"classroom": {
+		"code": "mck3wba",
+		"invitation": "https://classroom.google.com/c/NTM4MDgxMzk2OTA2?cjc=mck3wba"
+	},
+	"courselinkpageweb": "https://www.fciencias.unam.mx/docencia/horarios/presentacion/336798",
+	"bibliography": [
+		{"author": "Bondy, J.A. & Murty, U.S.",
+			"year": "2008",
+			"title": "Graph Theory",
+			"printer": "USA: Springer"
+		},
+		{
+			"author": "Bondy, J.A. & Murty, U.S.",
+			"year": "1976",
+			"title": "Graph Theory with applications",
+			"printer": "USA: McMilan Press"
+		},
+		{
+			"author": "Curcó, M.",
+			"year": "2006",
+			"title": "Una introducción a la teoría de gráficas",
+			"printer": "México: Facultad de Ciencias, Vínculos matemáticos #48"
+		},
+		{
+			"author": "Harary, F.",
+			"year": "1971",
+			"title": "Graph Theory",
+			"printer": "USA: Addison Wesley"
+		}
+	],
+	"teacher": {
+		"name": "Ernesto Vázquez",
+		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+		"email": "eralvanamate@gmail.com"
+	},
+	"teacherassistant": {
+		"name": "Briseida Trejo",
+		"place": "Aula 4 del Instituto de Matemáticas",
+		"email": "briseida.trejo@ciencias.unam.mx"
+	}
+}
