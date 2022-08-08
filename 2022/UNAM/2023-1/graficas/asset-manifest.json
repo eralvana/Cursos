@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Cursos/2022/UNAM/2023-1/graficas/static/css/main.ebe974d9.chunk.css",
+    "main.js": "/Cursos/2022/UNAM/2023-1/graficas/static/js/main.30844780.chunk.js",
+    "main.js.map": "/Cursos/2022/UNAM/2023-1/graficas/static/js/main.30844780.chunk.js.map",
+    "runtime-main.js": "/Cursos/2022/UNAM/2023-1/graficas/static/js/runtime-main.5ddc539d.js",
+    "runtime-main.js.map": "/Cursos/2022/UNAM/2023-1/graficas/static/js/runtime-main.5ddc539d.js.map",
+    "static/js/2.001b66f3.chunk.js": "/Cursos/2022/UNAM/2023-1/graficas/static/js/2.001b66f3.chunk.js",
+    "static/js/2.001b66f3.chunk.js.map": "/Cursos/2022/UNAM/2023-1/graficas/static/js/2.001b66f3.chunk.js.map",
+    "index.html": "/Cursos/2022/UNAM/2023-1/graficas/index.html",
+    "static/css/main.ebe974d9.chunk.css.map": "/Cursos/2022/UNAM/2023-1/graficas/static/css/main.ebe974d9.chunk.css.map",
+    "static/js/2.001b66f3.chunk.js.LICENSE.txt": "/Cursos/2022/UNAM/2023-1/graficas/static/js/2.001b66f3.chunk.js.LICENSE.txt",
+    "static/media/GP.3e9e0f3b.gif": "/Cursos/2022/UNAM/2023-1/graficas/static/media/GP.3e9e0f3b.gif",
+    "static/media/TG.5b8111c5.gif": "/Cursos/2022/UNAM/2023-1/graficas/static/media/TG.5b8111c5.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ddc539d.js",
+    "static/js/2.001b66f3.chunk.js",
+    "static/css/main.ebe974d9.chunk.css",
+    "static/js/main.30844780.chunk.js"
+  ]
+}
