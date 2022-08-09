@@ -18,7 +18,7 @@ function Methodology() {
         Utilizaremos la plataforma <b><i>Classroom</i></b> para el desarrollo del curso (el código de la clase es <b>{value.classroom.code}</b> y <b><a href={value.classroom.invitation} target="_blank" rel="noreferrer">aquí</a></b> está la invitación)
       </div>
       <div className="center">
-        <b>Nota:</b> Es recomendable inscribirse al curso con una cuenta con dominio <b>@unam</b>. De no lograr inscribirse al curso, ponerse en contacto por correo electrónico para dar solución al problema.
+        <b>Nota:</b> Es recomendable inscribirse al curso con una cuenta con dominio <b>@ciencias.unam.mx</b>. De no lograr inscribirse al curso, ponerse en contacto por correo electrónico para dar solución al problema.
       </div>
       <div className="center">
         No hay lista de asistencia a las clases. Asistirá quien desee participar y estar atento a la exposición.

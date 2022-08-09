@@ -4,7 +4,7 @@
 	"coursename": "Teoría de Gráficas",
 	"group": "4308",
 	"institution": "Facultad de Ciencias",
-	"syllabus": ["Gráficas y subgráficas","Árboles","Conexidad","Recorridos eulerianos y ciclos hamiltonianos","Apareamientos","Coloración de aristas","Coloración de vértices","Gráficas planares"],
+	"syllabus": ["Gráficas y subgráficas","Árboles","Conexidad","Recorridos eulerianos y ciclos hamiltonianos","Apareamientos", "Coloración de vértices","Planaridad"],
 	"classroom": {
 		"code": "mck3wba",
 		"invitation": "https://classroom.google.com/c/NTM4MDgxMzk2OTA2?cjc=mck3wba"
