@@ -11,6 +11,11 @@
 	},
 	"courselinkpageweb": "https://www.fciencias.unam.mx/docencia/horarios/presentacion/336816",
 	"bibliography": [
+		{"author": "Casarrubias, F., Tamariz, A.",
+			"year": "2019",
+			"title": "Elementos de topología general",
+			"printer": "México: Instituto de Matemáticas"
+		},
 		{"author": "Prieto, C.",
 			"year": "2003",
 			"title": "Topología Básica",
@@ -46,9 +51,11 @@
 		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
 		"email": "eralvanamate@gmail.com"
 	},
-	"teacherassistant": {
-		"name": "Gasde Hunedy",
-		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
-		"email": "ghl1123@yahoo.com.mx"
-	}
+	"teacherassistant": [
+		{
+			"name": "Gasde Hunedy",
+			"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+			"email": "ghl1123@yahoo.com.mx"
+		}
+	]
 }

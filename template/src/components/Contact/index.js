@@ -17,11 +17,17 @@ function Contact() {
               <li>{value.teacher.place} - <a href={`mailto:${value.teacher.email}`}>{value.teacher.email}</a></li>
             </ul>
           </li>
-          <li>{value.teacherassistant.name}
-            <ul>
-              <li>{value.teacherassistant.place} - <a href={`mailto:${value.teacherassistant.email}`}>{value.teacherassistant.email}</a></li>
-            </ul>
-          </li>
+          {
+            value.teacherassistant.map(function(e,i){
+              return (
+                <li key={i}>{e.name}
+                  <ul>
+                    <li>{e.place} - <a href={`mailto:${e.email}`}>{e.email}</a></li>
+                  </ul>
+                </li>
+              )
+            })
+          }
         </ul>
       </div>
     </section>

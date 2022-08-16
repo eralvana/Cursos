@@ -41,9 +41,11 @@
 		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
 		"email": "eralvanamate@gmail.com"
 	},
-	"teacherassistant": {
-		"name": "Ernesto Alejandro Vázquez Navarro",
-		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
-		"email": "ernesto.vazquez@encit.unam.mx"
-	}
+	"teacherassistant": [
+		{
+			"name": "Ernesto Alejandro Vázquez Navarro",
+			"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
+			"email": "ernesto.vazquez@encit.unam.mx"
+		}
+	]
 }

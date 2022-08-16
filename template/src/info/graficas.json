@@ -40,9 +40,16 @@
 		"place": "Aula 1 (Nuevo edificio) del Instituto de Matemáticas",
 		"email": "eralvanamate@gmail.com"
 	},
-	"teacherassistant": {
-		"name": "Briseida Trejo",
-		"place": "Aula 4 del Instituto de Matemáticas",
-		"email": "briseida.trejo@ciencias.unam.mx"
-	}
+	"teacherassistant": [
+		{
+			"name": "Briseida Trejo",
+			"place": "Aula 4 del Instituto de Matemáticas",
+			"email": "briseida.trejo@ciencias.unam.mx"
+		},
+		{
+			"name": "Clara Gallardo",
+			"place": "IIMAS/FC",
+			"email": "clarentina@ciencias.unam.mx"
+			}
+	]
 }
